@@ -35,7 +35,7 @@ events.on('event-name', new Promise((resolve, reject) => {
 events.on('event-name', () => {
   return Promise.resolve('result');
 });
-s
+
 events.call('event-name', 'hello world')
   .then((result) => console.log(result)); //'hello world'
 ```
