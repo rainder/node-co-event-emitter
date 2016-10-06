@@ -14,7 +14,7 @@ describe('all-tests', function () {
       return a;
     });
 
-    const r = yield events.emit('test', 123);
+    const r = yield events.call('test', 123);
 
     r.should.equals(123);
   }));

@@ -56,13 +56,21 @@ Return true if there is a registered listener for a provided event.
 events.has('event-name');
 ```
 
-### .emit(eventName: String, ...args): Promise
+### .call(eventName: String, ...args): Promise
 
 Emits an event and returns a promise. Throws an error if no event listener found.
 
 ```js
-events.emit('event-name')
+events.call('event-name')
     .then((result) => { /* handle result */ })
     .catch((err) => { /* handle err */ });
 }
+```
+
+### .emit(eventName: String): Boolean
+
+Emits an event. Returns a boolean value indicating if listener have been found.
+
+```js
+events.emit('event-name');
 ```
