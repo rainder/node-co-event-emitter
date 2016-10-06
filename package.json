@@ -1,7 +1,7 @@
 {
   "name": "@rainder/co-event-emitter",
   "version": "0.1.0",
-  "description": "co event emitter singleton",
+  "description": "co event emitter",
   "main": "index.js",
   "dependencies": {
     "co": "^4.6.0"
@@ -22,8 +22,7 @@
   "keywords": [
     "co",
     "event",
-    "emitter",
-    "singleton"
+    "emitter"
   ],
   "author": "Andrius Skerla",
   "license": "ISC",
