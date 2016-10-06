@@ -1,6 +1,6 @@
 {
   "name": "@rainder/co-event-emitter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "co event emitter",
   "main": "index.js",
   "dependencies": {
