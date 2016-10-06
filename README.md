@@ -1,6 +1,8 @@
 # CoEventEmitter
 
-## Api
+
+
+## API
 
 ### .on(eventName: String, function: Promise|GeneratorFunction|Thunk): CoEventEmitter
 
